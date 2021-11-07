@@ -1,0 +1,27 @@
+.student_card{
+	width:  330px;
+	background: black;
+	padding: 10px;
+	margin: 13px;
+	display: flex;
+	padding: 10px;
+	justify-content: space-between;
+}
+.describe{
+	margin-left: 10px;
+	/*margin-right: 10px;*/
+}
+.describe h1{
+	font-size: 20px;
+}
+.describe p{
+	color: gray;
+}
+
+.image img{
+    border-radius:50%;
+	width: 100px;
+}
+.icons{
+	color: gray;
+}

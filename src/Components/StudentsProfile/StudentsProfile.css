@@ -1,0 +1,52 @@
+.head{
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.head img{
+	border-radius:50%;
+	width: 100px;
+}
+.top p{
+	margin-left: 20px;
+	font-size: 20px;
+	font-weight: 600;
+}
+.head h1{
+	margin-left: 20px;
+}
+.edu_info{
+	display: grid;
+
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.bunch p{
+	color: gray;
+}
+.bunch h1{
+	color: lightgray;
+	text-decoration: underline;
+}
+.bunch{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background: #004048;
+}
+.skills{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.skills_list{
+	margin: 20px;
+}
+.skills_list button{
+	margin: 5px;
+	padding: 5px;
+	background:  black;
+	color: lightgray;
+	border-radius: 5px;
+}

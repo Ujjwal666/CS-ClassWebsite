@@ -1,0 +1,34 @@
+.card{
+	height: 200px;
+	background: white;
+	width: 300px;
+	border-radius: 5px;
+	margin: 20px;
+	color: black;
+	padding: 10px;
+}
+.card h1{
+	font-weight: 630;
+	font-size: 25px;
+}
+.group{
+	margin-bottom: -10px;
+}
+.group p{
+	padding: 4px;
+	font-weight: 600;
+	text-align: center;
+}
+.pro{
+	max-width: 500px;
+}
+.description{
+	margin-top: -10px;
+	float: left;
+	overflow-wrap: break-word;
+}
+.description p{
+	width: 250px;
+	font-weight: 400;
+	font-size: 15px;
+}

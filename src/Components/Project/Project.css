@@ -1,0 +1,29 @@
+.project{
+	overflow: hidden;
+}
+.right_project{
+	flex-wrap: wrap;
+	padding: 10px;
+	border-left: 1px solid white;
+	background: #004048;
+	width: 100%;
+}
+.right_project h1{
+	text-decoration: underline;
+	font-size: 30px;
+}
+.right_project > h1{
+	text-decoration: none;
+	font-size: 30px;
+}
+.right_project p{
+	color: gray;
+}
+.description_project p{
+	overflow-wrap: break-word;
+	width: 75vw;
+}
+.demo_project p{
+	overflow-wrap: break-word;
+	width: 75vw;
+}

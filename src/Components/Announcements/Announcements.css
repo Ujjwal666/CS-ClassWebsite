@@ -1,0 +1,49 @@
+.announcements{
+	background-color: #80b3ff;
+}
+.right{
+	color: white;
+	height: 100%;
+	width: 100%;
+}
+.announcements_bottom{
+	display: flex;
+	bottom: 0px;
+	position: fixed;
+}
+.posts{
+	border: 1px solid white;
+	padding: 5px;
+	border-radius: 10px;
+	
+}
+.posts button{
+	width: 75vw;
+}
+.post_commentBox{
+	display: flex;
+	padding: 10px;
+
+} 
+.post_commentBox input{
+	width: 75vw;
+}
+.post_comments{
+	padding: 20px;
+}
+.post_input{
+	flex: 1;
+	border:none;
+	padding: 10px;
+	border-top: 1px solid lightgray;
+}
+.post_button{
+	flex: 0;
+	border:1px solid white;
+	color: white;
+	background-color: transparent;
+	padding: 5px;
+}
+input{
+	outline: none;
+}
