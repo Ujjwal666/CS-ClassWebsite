@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/CS-ClassWebsite/static/css/main.3e5ef33a.chunk.css",
-    "main.js": "/CS-ClassWebsite/static/js/main.56254626.chunk.js",
-    "main.js.map": "/CS-ClassWebsite/static/js/main.56254626.chunk.js.map",
-    "runtime-main.js": "/CS-ClassWebsite/static/js/runtime-main.e15b751c.js",
-    "runtime-main.js.map": "/CS-ClassWebsite/static/js/runtime-main.e15b751c.js.map",
-    "static/js/2.9cb21a25.chunk.js": "/CS-ClassWebsite/static/js/2.9cb21a25.chunk.js",
-    "static/js/2.9cb21a25.chunk.js.map": "/CS-ClassWebsite/static/js/2.9cb21a25.chunk.js.map",
-    "static/js/3.e5462881.chunk.js": "/CS-ClassWebsite/static/js/3.e5462881.chunk.js",
-    "static/js/3.e5462881.chunk.js.map": "/CS-ClassWebsite/static/js/3.e5462881.chunk.js.map",
+    "main.css": "/CS-ClassWebsite/static/css/main.c54cfe6e.chunk.css",
+    "main.js": "/CS-ClassWebsite/static/js/main.3053e6f1.chunk.js",
+    "main.js.map": "/CS-ClassWebsite/static/js/main.3053e6f1.chunk.js.map",
+    "runtime-main.js": "/CS-ClassWebsite/static/js/runtime-main.628cadc8.js",
+    "runtime-main.js.map": "/CS-ClassWebsite/static/js/runtime-main.628cadc8.js.map",
+    "static/js/2.73124f36.chunk.js": "/CS-ClassWebsite/static/js/2.73124f36.chunk.js",
+    "static/js/2.73124f36.chunk.js.map": "/CS-ClassWebsite/static/js/2.73124f36.chunk.js.map",
+    "static/js/3.5eacc86b.chunk.js": "/CS-ClassWebsite/static/js/3.5eacc86b.chunk.js",
+    "static/js/3.5eacc86b.chunk.js.map": "/CS-ClassWebsite/static/js/3.5eacc86b.chunk.js.map",
     "index.html": "/CS-ClassWebsite/index.html",
-    "static/css/main.3e5ef33a.chunk.css.map": "/CS-ClassWebsite/static/css/main.3e5ef33a.chunk.css.map",
-    "static/js/2.9cb21a25.chunk.js.LICENSE.txt": "/CS-ClassWebsite/static/js/2.9cb21a25.chunk.js.LICENSE.txt",
+    "static/css/main.c54cfe6e.chunk.css.map": "/CS-ClassWebsite/static/css/main.c54cfe6e.chunk.css.map",
+    "static/js/2.73124f36.chunk.js.LICENSE.txt": "/CS-ClassWebsite/static/js/2.73124f36.chunk.js.LICENSE.txt",
     "static/media/logo.48ac4a7c.png": "/CS-ClassWebsite/static/media/logo.48ac4a7c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e15b751c.js",
-    "static/js/2.9cb21a25.chunk.js",
-    "static/css/main.3e5ef33a.chunk.css",
-    "static/js/main.56254626.chunk.js"
+    "static/js/runtime-main.628cadc8.js",
+    "static/js/2.73124f36.chunk.js",
+    "static/css/main.c54cfe6e.chunk.css",
+    "static/js/main.3053e6f1.chunk.js"
   ]
 }
