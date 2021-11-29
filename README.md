@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+View the website live at: https://ujjwal666.github.io/CS-ClassWebsite/
 
 ## Available Scripts
 
