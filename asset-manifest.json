@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/CS-ClassWebsite/static/css/main.17e5b6a4.chunk.css",
-    "main.js": "/CS-ClassWebsite/static/js/main.a0083022.chunk.js",
-    "main.js.map": "/CS-ClassWebsite/static/js/main.a0083022.chunk.js.map",
+    "main.css": "/CS-ClassWebsite/static/css/main.94685f29.chunk.css",
+    "main.js": "/CS-ClassWebsite/static/js/main.5a3bb8ab.chunk.js",
+    "main.js.map": "/CS-ClassWebsite/static/js/main.5a3bb8ab.chunk.js.map",
     "runtime-main.js": "/CS-ClassWebsite/static/js/runtime-main.628cadc8.js",
     "runtime-main.js.map": "/CS-ClassWebsite/static/js/runtime-main.628cadc8.js.map",
     "static/js/2.d198bbd3.chunk.js": "/CS-ClassWebsite/static/js/2.d198bbd3.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.5eacc86b.chunk.js": "/CS-ClassWebsite/static/js/3.5eacc86b.chunk.js",
     "static/js/3.5eacc86b.chunk.js.map": "/CS-ClassWebsite/static/js/3.5eacc86b.chunk.js.map",
     "index.html": "/CS-ClassWebsite/index.html",
-    "static/css/main.17e5b6a4.chunk.css.map": "/CS-ClassWebsite/static/css/main.17e5b6a4.chunk.css.map",
+    "static/css/main.94685f29.chunk.css.map": "/CS-ClassWebsite/static/css/main.94685f29.chunk.css.map",
     "static/js/2.d198bbd3.chunk.js.LICENSE.txt": "/CS-ClassWebsite/static/js/2.d198bbd3.chunk.js.LICENSE.txt",
     "static/media/logo.48ac4a7c.png": "/CS-ClassWebsite/static/media/logo.48ac4a7c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.628cadc8.js",
     "static/js/2.d198bbd3.chunk.js",
-    "static/css/main.17e5b6a4.chunk.css",
-    "static/js/main.a0083022.chunk.js"
+    "static/css/main.94685f29.chunk.css",
+    "static/js/main.5a3bb8ab.chunk.js"
   ]
 }
