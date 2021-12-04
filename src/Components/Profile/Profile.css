@@ -10,11 +10,8 @@
 }
 .top p{
 	margin-left: 20px;
-	margin-top: -20px;
 	font-size: 20px;
-	font-weight: 300;
-	color: lightgray;
-
+	font-weight: 600;
 }
 .head h1{
 	margin-left: 20px;
@@ -45,11 +42,10 @@
 .skills_list{
 	margin: 20px;
 }
-.skills_list h1{
-	text-decoration: none !important;
-}
 .experience_list h1{
-	text-decoration: none;
+	font-size: 30px;
+	font-weight: 500px;
+	color: darkgray;
 }
 .skills_list button{
 	margin: 5px;

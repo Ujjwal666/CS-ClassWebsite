@@ -15,9 +15,10 @@
 	margin-bottom: -10px;
 }
 .group p{
-	padding: 4px;
+	padding: 2px;
 	font-weight: 600;
 	text-align: center;
+	color: white;
 }
 .pro{
 	max-width: 500px;
@@ -26,6 +27,9 @@
 	margin-top: -10px;
 	float: left;
 	overflow-wrap: break-word;
+	width: 360px;
+	height: 100px;
+	overflow: hidden;
 }
 .description p{
 	width: 250px;

@@ -1,73 +1,91 @@
-import React from 'react'
+import React,{useEffect,useState} from 'react'
 import './StudentsProfile.css'
 import {Link} from "react-router-dom";
-
+import { auth, db} from '../firebase';
+import { useStateValue } from "../StateProvider";
 
 function StudentsProfile() {
+	const [{current}, dispatch] = useStateValue()	
+	const [info,setInfo] = useState('')
+
+	useEffect(() => {
+		db
+			.collection('contact-form')
+			.onSnapshot(snapshot => (
+				setInfo(snapshot.docs.map(doc => ({
+					data: doc.data()
+				})))
+			))
+	}, [])
+	console.log("currrrr",current)
 
 	return (
 		<div className="students_profile">
-			<div className="head">
-				<img src="https://upload.wikimedia.org/wikipedia/commons/1/18/Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg" />
-				<div className="top">
-					<h1>Ujjwal Adhikari</h1>
-					<p>Software Developer</p>
-				</div>	
-			</div>
-			<div className="bunch">
-				<div className = "edu_info">
-					<div className="education">
-						<h1> Education </h1>
-						<p> Bachelor's in Computer Science </p>
-						<p> GPA : 3.67 </p>
-						<p> Expected Graduation: May, 2024</p>	
-					</div>
-					<div className = "experience">
-						<div className="experience_list">
-							<h1>Experience Title</h1>
-							<p>Experience Description goes continuing.......</p>
-							<p>Date: 09-2020 to 10-2021 </p>
-						</div>	
-						<div className="experience_list">
-							<h1>Experience Title</h1>
-							<p>Experience Description goes continuing.......</p>
-							<p>Date: 09-2020 to 10-2021 </p>
+			{current.map(item=>(
+				<>
+					<div className="head">
+						<img src={item?.image} />
+						<div className="top">
+							<h1>{item?.name}</h1>
+							<p>{item?.intro}</p>
 						</div>	
 					</div>
-					<div className="skills">
-						<h1>Skills</h1>
-						<div className="skills_list"> 
-							<button>ReactJS</button>
-							<button>Python</button>
-							<button> HTML/CSS </button>
+					<div className="bunch">
+						<div className = "edu_info">
+							<div className="education">
+								<h1> Education </h1>
+								<p>University: {item?.university}</p>
+								<p>Major: {item?.major}</p>
+								<p>GPA: {item?.gpa} </p>
+								<p> Expected Graduation: {item?.graduation}</p>	
+							</div>
+							<div className = "experience">
+								<h1>Experiences</h1>
+								<div className="experience_list pro">
+									<h1>➊ {item?.title1}</h1>
+									<p>{item?.experience1}</p>
+									<p>Date: {item?.data1}</p>
+								</div>	
+								<div className="experience_list pro">
+									<h1>➋ {item?.title2}</h1>
+									<p>{item?.experience2}</p>
+									<p>Date: {item?.data1} </p>
+								</div>	
+							</div>
+							<div className="skills">
+								<h1>Skills</h1>
+								<div className="skills_list"> 
+									<button>{item?.para}</button>
+								</div>	
+							</div>	
+							
 						</div>	
-					</div>	
-					
-				</div>	
-				<div className="bunc">
-					<div className="info">
-						<h1>Personal Info </h1>
-						<p>Address: Sherman Ave NW, Washington, DC </p>
-						<p>Phone: (+1)111-111-1111</p>
-						<p>Email: aaa@bison.howard.edu</p>
-						<p>GitHub : https://github/uaa/ </p>
-						<p>Linkedin: https://linkedin/uaaa/</p>
-					</div>
-					<div className = "projects">
-						<div className="projects_list">
-							<h1>Project Title</h1>
-							<p>Project Description goes continuing.......</p>
-							<p>Date: 09-2020 to 10-2021 </p>
+						<div className="bunc">
+							<div className="info">
+								<h1>Personal Info </h1>
+								<p>Address: {item?.address}</p>
+								<p>Phone: {item?.phone}</p>
+								<p>Email: {item?.email}</p>
+								<p>GitHub : {item?.github}</p>
+								<p>Linkedin: {item?.linkedln}</p>
+							</div>
+							<div className = "projects">
+								<h1>Projects</h1>
+								<div className="projects_list pro">
+									<h1>➊ {item?.project1}</h1>
+									<p>{item?.proDes1}</p>
+									<p>Date: {item?.proDate1}</p>
+								</div>
+								<div className="projects_list pro">
+									<h1>➋ {item?.project2}</h1>
+									<p>{item?.proDes2}</p>
+									<p>Date: {item?.proDate2}</p>
+								</div>
+							</div>
 						</div>
-						<div className="projects_list">
-							<h1>Project Title</h1>
-							<p>Project Description goes continuing.......</p>
-							<p>Date: 09-2020 to 10-2021 </p>
-						</div>
 					</div>
-				</div>
-			</div>
-
+				</>
+			))}
 		</div>
 	)
 }

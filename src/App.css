@@ -1,4 +1,8 @@
 body{
-  background: black;
+  background: #002328;
   color: white;
+  font-family: 'Helvetica';
+}
+.font-link{
+  font-family: 'Helvetica';
 }
