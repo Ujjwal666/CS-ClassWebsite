@@ -11,9 +11,6 @@
     position: absolute;
     z-index: -1;
 }
-.home__headerLeft button: hover{
-    text-decoration: none;
-}
 .home__header{
     display: flex;
     justify-content: space-between;

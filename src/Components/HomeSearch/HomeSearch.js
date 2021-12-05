@@ -57,7 +57,9 @@ function HomeSearch() {
             </Link>  
           </div>
           <div className="home__headerRight">
-            <Avatar style={{backgroundColor:color}} alt="src" className="avatar" >{user?.email[0].toUpperCase()} </Avatar>
+            {user && 
+              <Avatar style={{backgroundColor:color}} alt="src" className="avatar" >{user?.email[0].toUpperCase()} </Avatar>
+            }
             <p style={{color:'black'}}>Hello {user ? user?.email : 'Guest'}</p>
           </div>
         </div>
