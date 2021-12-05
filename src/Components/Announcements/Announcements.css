@@ -1,14 +1,12 @@
 .announcements{
-	background-color: #80b3ff;
+	background-color: #002328;
 	width: 100%;
+	overflow: hidden;
 }
 .messages_div{
 	width: 100%;
 	height: 100%;
 	overflow-y: auto;
-}
-.lefts{
-	width: 10px;
 }
 .right{
 	color: white;

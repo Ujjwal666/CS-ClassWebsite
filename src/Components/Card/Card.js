@@ -8,9 +8,6 @@ function Card({group,title,description,demo,members,github}) {
 
 	const [{current}, dispatch] = useStateValue()
 
-	var randomColor = require('randomcolor'); // import the script
-	var color = randomColor(); // a hex code for an attractive color
-
 	const addToCurrent=()=>{
 		// console.log("email",email)
 		dispatch({
@@ -24,13 +21,12 @@ function Card({group,title,description,demo,members,github}) {
 					github: github,
 			}
 		})
-		console.log("currr",current)
 	}
 
 	return (
 		<Link to="/project">
 			<div className="card" onClick={addToCurrent}>
-				<div className="group" style={{backgroundColor:color,color:'white',height:'30px',width:'90px'}}>
+				<div className="group" style={{backgroundColor:'black',color:'white',height:'30px',width:'90px'}}>
 					<p>Group {group} </p>
 				</div>
 				<h1>{title}</h1>

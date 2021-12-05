@@ -28,7 +28,7 @@ function Project() {
 		<div className="project">
 			{current.map(item=>(
 				<>
-					<div className="left">
+					<div className="lefts">
 						<LeftBar />
 					</div>
 					<div className="right_project right">

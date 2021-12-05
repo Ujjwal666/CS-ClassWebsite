@@ -1,19 +1,25 @@
+.students_profile{
+	overflow: hidden;
+}
 .head{
 	padding: 10px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	width: 100vw;
 }
 .head img{
 	border-radius:50%;
-	width: 100px;
+	max-width: 100px;
+	max-height: 100px;
 }
 .top p{
 	margin-left: 20px;
 	margin-top: -20px;
 	font-size: 20px;
-	font-weight: 300;
-	color: lightgray;
+	color: gray;
+	width: 80vw;
+	word-wrap: break-word;
 
 }
 .head h1{

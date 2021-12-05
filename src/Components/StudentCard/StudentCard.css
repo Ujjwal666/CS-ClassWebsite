@@ -6,7 +6,50 @@
 	display: flex;
 	padding: 10px;
 	justify-content: space-between;
+	align-items: center;
 }
+
+.student_card{
+  position: relative;
+  background-color: #006f7e;
+  border-radius: 4px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+  box-shadow: 2px 2px black;
+}
+.student_card::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -18px;
+    right: -18px;
+    background: #80b3ff;
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: transform 0.25s ease-out;
+}
+
+.student_card:hover:before {
+    transform: scale(15);
+}
+
+.student_card:hover p{
+	color: black;
+	transition: 0.5s;
+}
+.student_card:hover h1{
+	color: black;
+	transition: 0.5s;
+}
+.student_card:hover .icons{
+	color: black;
+	transition: 0.5s;
+}
+
 .describe{
 	margin-left: 10px;
 	/*margin-right: 10px;*/
@@ -15,15 +58,20 @@
 	font-size: 20px;
 }
 .describe p{
-	color: gray;
+	color: #80b3ff;
+	height: 50px;
+	width: 190px;
+	word-wrap: break-word;
+	overflow: hidden;
+	margin-right: 5px;
 }
 
 .image img{
     border-radius:50%;
-	max-width: 100px;
-	max-height: 100px;
+	max-width: 100px !important;
+	max-height: 100px !important;
 }
 .icons{
-	color: gray;
+	color: #80b3ff;
 	display: grid;
 }

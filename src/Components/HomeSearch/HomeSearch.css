@@ -11,7 +11,9 @@
     position: absolute;
     z-index: -1;
 }
-
+.home__headerLeft button: hover{
+    text-decoration: none;
+}
 .home__header{
     display: flex;
     justify-content: space-between;
@@ -26,9 +28,6 @@
     font-size: 15px;
 }
 
-.home__header a:hover{
-    text-decoration: underline;
-}
 
 .home__headerRight{
     display: flex;
@@ -75,6 +74,10 @@
 }
 .search__buttonsHidde{
     color: white !important;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
 }
 .search__input>input {
     flex: 1;

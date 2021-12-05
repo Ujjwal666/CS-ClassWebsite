@@ -30,7 +30,7 @@ function Home() {
 		<>
 			{user ? (
 				<div className="home">
-					<div className="left">
+					<div className="lefts">
 						<LeftBar />
 					</div>
 					<div className="right">
@@ -40,7 +40,7 @@ function Home() {
 						<div className="search_bar">
 							<input type="text" onChange = {e => setSearch(e.target.value)} placeholder="Search..." />
 							<div className="search_icon">
-								<SearchIcon style={{fontSize:'50px',color:'#8ed460'}}/>
+								<SearchIcon style={{fontSize:'50px',color:'black'}}/>
 							</div>	
 						</div>
 						<div className="cards">

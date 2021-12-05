@@ -1,0 +1,60 @@
+.left{
+	box-shadow: 2px black;
+}
+.left h1{
+	padding-left: 10px;
+}
+.left h3{
+	color: white !important;
+	position: relative;
+	border: 2px solid transparent;
+	padding: 2px;
+	padding-left: 10px;
+	font-weight: 300;
+}
+
+.left h3:before{
+	content: "";
+	position: absolute;
+	height: 0;
+	width: 0;
+	border: 2px solid transparent;
+	bottom: 0;
+	left: 0;
+	box-sizing: border-box;
+}
+
+.left h3:after{
+	content: "";
+	position: absolute;
+	height: 0;
+	width: 0;
+	border: 2px solid transparent;
+	top: 0;
+	right: 0;
+	box-sizing: border-box;
+}
+
+
+.left h3:hover:before{
+	height: 30px;
+	width: 80px;
+	border: 2px solid #80b3ff;
+	border-right: none;
+	border-bottom: none;
+	transition: height 0.5s linear, width 0.5s linear 0.5s;
+}
+
+.left h3:hover:after{
+	height: 30px;
+	width: 80px;
+	border: 2px solid #80b3ff;
+	border-left: none;
+	border-top: none;
+	transition: height 0.5s linear, width 0.5s linear 0.5s;
+}
+.left_bottom p {
+	margin-left: 5px;
+	width: 150px;
+	word-wrap: break-word;
+}

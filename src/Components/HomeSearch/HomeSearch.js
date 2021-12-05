@@ -13,13 +13,17 @@ import { useStateValue } from "../StateProvider";
 import {auth} from '../firebase'
 
 function HomeSearch() {
-  const [{user},dispatch] = useStateValue();
+  const [{user,current},dispatch] = useStateValue();
+
+  var randomColor = require('randomcolor'); // import the script
+  var color = randomColor(); // a hex code for an attractive color
 
   const handleAuthentication = () => {
     if(user){
       auth.signOut();
     }
   }
+  console.log("cur",user)
   return (
     <div className="main">
       <Particles
@@ -53,7 +57,7 @@ function HomeSearch() {
             </Link>  
           </div>
           <div className="home__headerRight">
-            <Avatar />
+            <Avatar style={{backgroundColor:color}} alt="src" className="avatar" >{user?.email[0].toUpperCase()} </Avatar>
             <p style={{color:'black'}}>Hello {user ? user?.email : 'Guest'}</p>
           </div>
         </div>

@@ -38,7 +38,7 @@ function Announcements() {
 	}
 	console.log(messages)
 	return (
-		<div className="announcements left">
+		<div className="announcements">
 			<div className="lefts">
 				<LeftBar /> 
 			</div>

@@ -3,6 +3,10 @@
 	margin: 5px;
 	width:  fit-content;
 }
+.manager{
+	display: flex;
+	align-items: center;
+}
 .card_content{
 	margin: 10px;
 	margin-top: -10px;
@@ -16,20 +20,29 @@
 	color: white;
 	text-align: left !important;
 	margin: 5px;
+	display: flex;
+	align-items: center;
 }
 .message_userCard{
 	overflow-wrap: break-word;
-	background-color: #16284f !important;
+	background-color: #005763 !important;
 	margin: 10px;
 	width: 50vh;
 	margin-left: 55vw;
 
+}
+.manager{
+	display: flex;
+	align-items: center;
 }
 .message_guestCard{
 	background-color: #252629 !important;
 	margin: 10px;
 	width: 50vh;
 	overflow-wrap: break-word;
+}
+.message_guestCard p{
+
 }
 .te{
 	font-size: 10px;

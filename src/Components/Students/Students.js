@@ -22,13 +22,13 @@ function Students() {
 				})))
 			))
 	}, []);
-	console.log("i",info)
+	// console.log("i",info)
 
 	return (
 		<>
 			{user ? (
 				<div className="students">
-					<div className="left left_stud">
+					<div className="lefts left_stud">
 						<LeftBar /> 
 					</div>
 					<div className="right right_stud">
@@ -38,7 +38,7 @@ function Students() {
 						<div className="search_bar">
 							<input type="text" onChange = {e => setSearch(e.target.value)} placeholder="Search..." />
 							<div className="search_icon">
-								<SearchIcon style={{fontSize:'50px',color:'#ff8080'}}/>
+								<SearchIcon style={{fontSize:'50px',color:'black'}}/>
 							</div>	
 						</div>
 						<div className="student_cards" >

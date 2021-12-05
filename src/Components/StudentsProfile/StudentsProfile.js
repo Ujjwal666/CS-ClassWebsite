@@ -17,7 +17,7 @@ function StudentsProfile() {
 				})))
 			))
 	}, [])
-	console.log("currrrr",current)
+	// console.log("currrrr",current)
 
 	return (
 		<div className="students_profile">
